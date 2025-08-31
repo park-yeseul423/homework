@@ -1,1 +1,41 @@
-/* 여기에 스타일을 구현해 주세요 */
+.container {
+  overflow: hidden;  
+}
+
+.actor {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.actor img {
+  width: 64px 64px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.status {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+
+.green {
+  background-color: #4CFE88;
+}
+
+.white {
+  background-color: #dbdbdb;
+  
+}
+
+.clear {
+  clear: both;  
+}
